@@ -36,7 +36,7 @@ async function getAllUsers()
             <div class="user-${user.id} edit" style="display:none;" >
             <input  class="edit-user${user.id}-name" value="${user.name}"  placeholder="Enter Your Name" />
             <input  class="edit-user${user.id}-avatar" value="${user.avatar}"  placeholder="Enter Your Pic URL" />
-            <button class=" btn btn-save" onClick="updateUser(${user.id})"> <i class="bi bi-save"></i> Save</button>
+            <div><button class=" btn btn-save" onClick="updateUser(${user.id})"> <i class="bi bi-save"></i> Save</button></div>
             </div>
         </div>
         
