@@ -1,0 +1,236 @@
+body{
+
+    background-image: linear-gradient(to right, #63f9bf, #7ffcad, #9cfe9b, #b8ff89, #d5ff78);
+
+}
+
+
+.Add-icon , .user-add-inputs {
+
+    padding: 10px;
+    margin: 0 30%;
+
+    background: rgba( 255, 255, 255, 0.25 );
+    backdrop-filter: blur( 1px );
+    -webkit-backdrop-filter: blur( 1px );
+    border-radius: 10px;
+    border: 1px solid rgba(0, 121, 46, 0.18);
+
+    font-weight: 700;
+    font-size: 1.4rem;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    
+
+}
+
+.user-add-inputs p{
+
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(9, 168, 57);
+    text-shadow: 1px 1px 2px;
+    letter-spacing: 5px;
+
+}
+
+
+ .user-add-inputs input ,.user-add-inputs button{
+    
+    padding: 7px 0;
+    outline: none;
+    background-color: rgb(211, 250, 174);
+    margin: 20px 0;
+    border:4px rgb(63, 233, 63) solid;
+    border-radius: 5px;
+
+}
+
+.user-add-inputs input{
+    
+    width: 50%;
+ 
+
+}
+
+.user-add-inputs button{
+    
+    color: rgb(59, 59, 59);
+    padding: 10px;
+    border: 4px rgb(37, 185, 37) solid;
+    background-color: rgb(46, 218, 40);
+    border-radius: 7px;
+    margin: auto;
+    font-weight: 700;
+    font-family: cursive;
+
+} 
+
+.Add-icon button{
+
+    background: none;
+    outline: none;
+    border: none;
+
+}
+
+.bi-plus-circle-fill , .bi-person-circle{
+    font-size: 40px;
+}
+
+
+/* .user-container:before{
+
+    content: '';
+    position:absolute;
+    height: 100px;
+    width:20px;
+    background: #f3f3f3;
+    box-shadow: 0 0 10px #fff;
+    filter:blur(1px);
+    opacity: 0.9;
+    transition: 0.7s;
+    transform: rotate(-20deg) translate(-60px);
+    overflow: hidden;
+
+}
+
+.user-container:hover:before{
+
+    transform: rotate(-20deg) translate(140px 70px);
+} */
+
+.user-container{
+
+    /* background-color: white; */
+    background: rgba(159, 255, 86, 0.25);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    border-radius: 10px;
+    border: 4px solid rgba( 255, 255, 255, 0.18 );
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
+    margin: 3rem 6rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    transition: all 0.5s;
+}
+
+.user-container:hover{
+
+    color: brown;
+    transform: scale(1.08);
+
+}
+
+.user-avatar {
+    border-radius: 50%;
+    width: 8rem;
+    height: 8rem;
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px; */
+    box-shadow: rgba(0, 0, 0, 0.4) -9px 9px 15px 1px;
+}
+
+.user-name{
+    font-size: 1.4rem;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: rgba(0, 0, 0, 0.4) -9px 9px 10px;
+}
+
+
+
+/* .user-edit-form{
+
+    display: block;
+
+} */
+
+/* .edit{
+    margin-top: 5px;
+    border-radius: 20px;
+    padding: 20px;
+    background: rgb(215, 255, 176);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+} */
+
+.edit input {
+    
+    padding: 10px 6px;
+    border-radius: 7px;
+    background: rgb(210, 210, 255);
+    margin: 10px 5px;
+    outline: none;
+    border:2px rgb(85, 85, 253) solid;
+    box-shadow: rgba(0, 0, 0, 0.4) -9px 9px 15px 1px;
+    transition: 0.1s all;
+
+}
+
+.edit input:active {
+    
+    padding: 9px 3px;
+    box-shadow: rgba(0, 0, 0, 0.4) 1px 1px 15px 1px;
+    
+
+}
+
+
+.btn{
+
+    font-family: cursive;
+    color: whitesmoke;
+    padding: 8px 15px;
+    margin: 10px;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.4) -9px 9px 15px 1px;
+    outline: none;
+    transition: 0.25s all;
+    
+}
+
+.btn-del{
+
+    background-color: rgb(228, 65, 98);
+    border: 2px solid rgb(180, 33, 33);
+}
+
+.btn-edit{
+
+    background-color: rgb(62, 97, 212);
+    border: 2px solid rgb(76, 0, 255);
+}
+
+.btn-save{
+
+    background-color: rgb(46, 175, 29);
+    border: 2px solid rgb(36, 148, 2);
+}
+
+.btn:hover{
+
+    padding: 7px 12px;
+    box-shadow: rgba(0, 0, 0, 0.4) 1px 1px 15px 1px;
+
+}
+
+.btn-edit:active{
+
+    background-color:  rgb(30, 64, 175);
+
+}
+
+.btn-del:active{
+
+    background-color:  rgb(224, 39, 76);
+
+}
+
+.btn-save:active{
+
+    background-color:  rgb(33, 170, 15);
+
+}    
